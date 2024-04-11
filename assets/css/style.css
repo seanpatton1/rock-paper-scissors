@@ -16,7 +16,7 @@ body {
 
 /* part of this code was used through youtube video to center text on landing page */
 #main-heading {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -40,7 +40,7 @@ body {
 
 .start-game {
     transition-duration: 0.4s;
-    background-color: #04AA6D;
+    background-color: #DC9537;
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
     font-size: 5em;
@@ -115,4 +115,33 @@ body {
         color: white;
     }
 
+}
+
+/* Game page */
+
+#main-heading-one {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#game-rules {
+    display: flex;
+    margin-top: auto;
+}
+
+#rps-image-one {
+    max-width: 100%;
+    height: auto;
+}
+
+#rps-image-two {
+    max-width: 100%;
+    height: auto;
 }

@@ -17,6 +17,41 @@
 </head>
 
 <body>
+    <header>
+        <div id="main-heading-one">
+            <h1>Rock, Paper & Scissors</h1>
+        </div>
+    </header>
+    <section>
+        <br>
+        <div id="choices">
+            <p></p>
+            <button aria-label="Rock" data-choice="0" class="choice-btn">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="choice-btn">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="choice-btn">Scissors</button>
+            <button class="choice-btn">Reset</button>
+        </div>
+        <br>
+        <div id="user">
+            <img src="assets/images/RPS.png" alt="Rock, Paper & Scissors" id="rps-image-one">
+        </div>
+        <br>
+        <div id="current-score">
+            <h3>You're Score: <span>0</span></h3>
+            <h3>Computer Score: <span>0</span></h3>
+        </div>
+        <br>
+        <div id="computer">
+            <img src="assets/images/RPS.png" alt="Rock, Paper & Scissors" id="rps-image-two">
+        </div>
+
+    </section>
+
+    <footer id="game-rules">
+        <div>
+            <p>Rules - Rock breaks scissors - scissors cuts paper - paper covers rock</p>
+        </div>
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
