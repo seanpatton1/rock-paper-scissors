@@ -121,21 +121,189 @@ footer {
         width: 100%;
         margin-top: auto;
         text-align: center;
-        padding-top: 10px;
-        min-height: 50px;
+        padding-top: 16px;
+        min-height: 60px;
     }
 
 
 }
 
 /* Media query: laptops and desktops (992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    #main-heading-one {
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    #choices {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .choice-btn {
+        transition-duration: 0.4s;
+        margin-right: 50px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #rps-image-one {
+        max-width: 100%;
+        height: auto;
+        margin-left: 260px;
+    }
+
+    #rps-image-two {
+        max-width: 100%;
+        height: auto;
+        margin-left: 260px;
+    }
+
+    #current-score {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    footer {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 23px;
+        background-color: black;
+        color: azure;
+        width: 100%;
+        margin-top: auto;
+        text-align: center;
+        padding-top: 16px;
+        min-height: 60px;
+    }
+
+}
 
 /* Media query: desktops (1280px and up) */
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+
+    #main-heading-one {
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    #choices {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .choice-btn {
+        transition-duration: 0.4s;
+        margin-right: 50px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+
+    #rps-image-one {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #rps-image-two {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    #current-score {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    footer {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 23px;
+        background-color: black;
+        color: azure;
+        width: 100%;
+        margin-top: auto;
+        text-align: center;
+        padding-top: 16px;
+        min-height: 60px;
+    }
+
+}
 
 /* Media query: large desktops (1440px and up) */
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+
+    #main-heading-one {
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    #choices {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .choice-btn {
+        transition-duration: 0.4s;
+        margin-right: 50px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #rps-image-one {
+        max-width: 100%;
+        height: auto;
+        margin-left: 480px;
+    }
+
+    #rps-image-two {
+        max-width: 100%;
+        height: auto;
+        margin-left: 480px;
+    }
+
+    #current-score {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    footer {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 23px;
+        background-color: black;
+        color: azure;
+        width: 100%;
+        margin-top: auto;
+        text-align: center;
+        padding-top: 16px;
+        min-height: 60px;
+    }
+
+}
 
 /* Media query: slightly wider screen for desktops (1600px and up) */
 @media screen and (min-width: 1600px) {}
