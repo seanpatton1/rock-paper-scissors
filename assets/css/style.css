@@ -21,11 +21,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
-#the-game {
-    /* width: 75% ;*/
-}
-
 #choices {
     display: flex;
     justify-content: space-evenly;
@@ -136,10 +131,11 @@ footer {
         font-size: 25px;
         justify-content: center;
     }
-#the-game {
-    display: flex;
-    flex-direction: row;
-}
+
+    #the-game {
+        display: flex;
+        flex-direction: row;
+    }
 
 
     #choices {
@@ -206,7 +202,7 @@ footer {
         flex-direction: row;
         grid-template-columns: 1fr;
     }
-    
+
     #choices {
         display: flex;
         justify-content: space-evenly;
