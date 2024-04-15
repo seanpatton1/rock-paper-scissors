@@ -132,6 +132,10 @@ footer {
         justify-content: center;
     }
 
+    #game-choices {
+        margin-top: 20px;
+    }
+
     #the-game {
         display: flex;
         flex-direction: row;
@@ -200,7 +204,6 @@ footer {
     #the-game {
         display: flex;
         flex-direction: row;
-        grid-template-columns: 1fr;
     }
 
     #choices {
