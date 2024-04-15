@@ -139,6 +139,7 @@ footer {
     #the-game {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 
 
@@ -159,16 +160,24 @@ footer {
     #rps-image-one {
         max-width: 100%;
         height: auto;
-        margin-left: 260px;
     }
 
     #rps-image-two {
         max-width: 100%;
         height: auto;
-        margin-left: 260px;
     }
 
-    #current-score {
+    #current-score-user {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    #current-score-computer {
         display: flex;
         justify-content: center;
         flex-direction: column;
