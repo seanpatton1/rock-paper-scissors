@@ -20,7 +20,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #1369AD;
 }
+
 #choices {
     display: flex;
     justify-content: space-evenly;
@@ -35,20 +37,42 @@ body {
 }
 
 #rps-image-one {
-    max-width: 100%;
+    display: flex;
+    max-width: 75%;
     height: auto;
+    padding-left: 60px;
 }
 
 #rps-image-two {
-    max-width: 100%;
+    display: flex;
+    max-width: 75%;
     height: auto;
+    padding-left: 60px;
+    margin-top: 15px;
 }
 
-#current-score {
+#game-message {
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 30px;
+}
+
+#current-score-user {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-left: 70px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#current-score-computer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 55px;
+    margin-top: 15px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 footer {
@@ -87,18 +111,19 @@ footer {
     }
 
     #rps-image-one {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
-        margin-left: 120px;
+        margin-left: 166px;
+        margin-top: 20px;
     }
 
     #rps-image-two {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
-        margin-left: 120px;
+        margin-left: 166px;
     }
 
-    #current-score {
+    #current-score-user {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -106,6 +131,18 @@ footer {
         font-size: 30px;
         text-align: center;
         margin-right: 80px;
+        margin-top: 20px;
+    }
+
+    #current-score-computer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+        margin-bottom: 20px;
     }
 
     footer {
@@ -328,4 +365,75 @@ footer {
 @media screen and (min-width: 1600px) {}
 
 /* Media query: Desktop large (1920px and up) */
-@media screen and (min-width: 1920px) {}
+@media screen and (min-width: 1920px) {
+
+    #main-heading-one {
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    #choices {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .choice-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #rps-image-one {
+        max-width: 70%;
+        height: auto;
+        margin-left: 166px;
+        margin-top: 50px;
+    }
+
+    #rps-image-two {
+        max-width: 70%;
+        height: auto;
+        margin-left: 166px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+    #current-score-user {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+
+    #current-score-computer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 23px;
+        background-color: black;
+        color: azure;
+        width: 100%;
+        margin-top: auto;
+        text-align: center;
+        padding-top: 16px;
+        min-height: 60px;
+    }
+
+}

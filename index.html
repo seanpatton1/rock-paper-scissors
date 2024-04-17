@@ -11,7 +11,8 @@
     <!-- Title -->
     <title>Rock, Paper & Scissors</title>
     <!-- Favicon -->
-
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-32x32.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -22,6 +23,7 @@
             <h1>Rock, Paper & Scissors</h1>
         </div>
     </header>
+    <!-- Game area -->
     <section id="game-choices">
         <br>
         <div id="choices">
@@ -31,17 +33,21 @@
             <button aria-label="Scissors" data-choice="2" class="choice-btn">Scissors</button>
             <button class="choice-btn">Reset</button>
         </div>
-        </section>
-        <br>
-        <section id="the-game">
+    </section>
+    <br>
+    <section id="the-game">
         <div id="user">
             <img src="assets/images/rock-paper-scissors.webp" alt="Rock, Paper & Scissors" id="rps-image-one">
         </div>
         <br>
         <div id="current-score-user">
             <h3>You're Score: <span>0</span></h3>
-            </div>
-            <div id="current-score-computer">
+        </div>
+        <div id="game-message">
+            <h1>Message</h1>
+        </div>
+        <br>
+        <div id="current-score-computer">
             <h3>Computer Score: <span>0</span></h3>
         </div>
         <br>
@@ -50,7 +56,7 @@
         </div>
 
     </section>
-
+<!-- Game rules -->
     <footer>
         <div>
             <p>Rules - Rock breaks scissors - scissors cuts paper - paper covers rock</p>
