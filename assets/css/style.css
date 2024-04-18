@@ -20,7 +20,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #1369AD;
+    background: rgb(9,95,121);
+    background: linear-gradient(90deg, rgba(9,95,121,1) 9%, rgba(0,255,40,0.7329306722689075) 100%, rgba(2,0,36,1) 100%);
 }
 
 /* Button styles */
@@ -37,6 +38,8 @@ body {
     font-size: 1rem;
     text-align: center;
     padding: 5px;
+    background-color: rgb(100, 201, 100);
+    font-weight: bold;
 
 }
 
@@ -246,7 +249,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-/* starting images */
+    /* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -257,7 +260,8 @@ footer {
         max-width: 100%;
         height: auto;
     }
-/* game area */
+
+    /* game area */
 
     #current-score-computer {
         display: flex;
@@ -278,7 +282,8 @@ footer {
         text-align: center;
         margin-right: 80px;
     }
-/* footer */
+
+    /* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -333,7 +338,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-/* starting images */
+    /* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -346,7 +351,7 @@ footer {
 
     }
 
-/* game area */
+    /* game area */
 
     #current-score {
         display: flex;
@@ -358,7 +363,7 @@ footer {
         margin-right: 80px;
     }
 
-/* footer */
+    /* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -408,7 +413,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-/* starting images */
+    /* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -422,7 +427,7 @@ footer {
         margin-left: 480px;
     }
 
-/* game area */
+    /* game area */
 
     #current-score {
         display: flex;
@@ -434,7 +439,7 @@ footer {
         margin-right: 80px;
     }
 
-/* footer */
+    /* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -484,7 +489,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-/* starting images */
+    /* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -501,7 +506,7 @@ footer {
         margin-top: 50px;
     }
 
-/* game area */
+    /* game area */
 
     #current-score-computer {
         display: flex;
@@ -525,7 +530,7 @@ footer {
         margin-bottom: 20px;
     }
 
-/* footer */
+    /* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -576,7 +581,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-/* starting images */
+    /* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -593,7 +598,7 @@ footer {
         padding-left: 0px;
     }
 
-/* game area */
+    /* game area */
 
     #game-message {
         display: flex;
@@ -625,7 +630,7 @@ footer {
         margin-bottom: 0px;
     }
 
-/* footer */
+    /* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
