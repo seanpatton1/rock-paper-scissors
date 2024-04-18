@@ -108,6 +108,7 @@ footer {
         font-size: 2rem;
         text-align: center;
         padding: 5px 5px 5px 5px;
+        margin-right: ;
     }
 
     #rps-image-one {
@@ -121,6 +122,7 @@ footer {
         max-width: 50%;
         height: auto;
         margin-left: 166px;
+        margin-bottom: 30px;
     }
 
     #current-score-user {
