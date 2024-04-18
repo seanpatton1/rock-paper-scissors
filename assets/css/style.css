@@ -23,6 +23,8 @@ body {
     background-color: #1369AD;
 }
 
+/* Button styles */
+
 #choices {
     display: flex;
     justify-content: space-evenly;
@@ -34,7 +36,24 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 1rem;
     text-align: center;
+    padding: 5px;
+
 }
+
+.reset-btn {
+    transition-duration: 0.4s;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 105px;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+/* starting images */
 
 #rps-image-one {
     display: flex;
@@ -51,6 +70,8 @@ body {
     margin-top: 15px;
 }
 
+/* gzme area */
+
 #game-message {
     display: flex;
     justify-content: center;
@@ -58,22 +79,24 @@ body {
     margin-top: 30px;
 }
 
-#current-score-user {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 70px;
-    font-family: "Josefin Sans", sans-serif;
-}
-
 #current-score-computer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 55px;
+    padding-left: 65px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#current-score-user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 75px;
     margin-top: 15px;
     font-family: "Josefin Sans", sans-serif;
 }
+
+/* footer */
 
 footer {
     font-family: "Josefin Sans", sans-serif;
@@ -96,6 +119,8 @@ footer {
         justify-content: center;
     }
 
+    /* Button styles */
+
     #choices {
         display: flex;
         justify-content: space-evenly;
@@ -111,6 +136,17 @@ footer {
         margin-right: ;
     }
 
+    #reset-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+    /* starting images */
+
     #rps-image-one {
         max-width: 50%;
         height: auto;
@@ -125,7 +161,9 @@ footer {
         margin-bottom: 30px;
     }
 
-    #current-score-user {
+    /* gzme area */
+
+    #current-score-computer {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -136,7 +174,7 @@ footer {
         margin-top: 20px;
     }
 
-    #current-score-computer {
+    #current-score-user {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -146,6 +184,8 @@ footer {
         margin-right: 80px;
         margin-bottom: 20px;
     }
+
+    /* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -171,16 +211,17 @@ footer {
         justify-content: center;
     }
 
-    #game-choices {
-        margin-top: 20px;
-    }
-
     #the-game {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
 
+    /* Button styles */
+
+    #game-choices {
+        margin-top: 20px;
+    }
 
     #choices {
         display: flex;
@@ -196,6 +237,17 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
+    #reset-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+/* starting images */
+
     #rps-image-one {
         max-width: 100%;
         height: auto;
@@ -204,6 +256,17 @@ footer {
     #rps-image-two {
         max-width: 100%;
         height: auto;
+    }
+/* game area */
+
+    #current-score-computer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
     }
 
     #current-score-user {
@@ -215,16 +278,7 @@ footer {
         text-align: center;
         margin-right: 80px;
     }
-
-    #current-score-computer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding-left: 70px;
-        font-size: 30px;
-        text-align: center;
-        margin-right: 80px;
-    }
+/* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -254,6 +308,8 @@ footer {
         flex-direction: row;
     }
 
+    /* Button styles */
+
     #choices {
         display: flex;
         justify-content: space-evenly;
@@ -268,6 +324,16 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
+    #reset-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+/* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -280,6 +346,8 @@ footer {
 
     }
 
+/* game area */
+
     #current-score {
         display: flex;
         justify-content: center;
@@ -289,6 +357,8 @@ footer {
         text-align: center;
         margin-right: 80px;
     }
+
+/* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -313,6 +383,8 @@ footer {
         justify-content: center;
     }
 
+    /* Button styles */
+
     #choices {
         display: flex;
         justify-content: space-evenly;
@@ -327,6 +399,17 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
+    #reset-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+/* starting images */
+
     #rps-image-one {
         max-width: 100%;
         height: auto;
@@ -339,6 +422,8 @@ footer {
         margin-left: 480px;
     }
 
+/* game area */
+
     #current-score {
         display: flex;
         justify-content: center;
@@ -348,6 +433,8 @@ footer {
         text-align: center;
         margin-right: 80px;
     }
+
+/* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -372,6 +459,8 @@ footer {
         justify-content: center;
     }
 
+    /* Button styles */
+
     #choices {
         display: flex;
         justify-content: space-evenly;
@@ -385,6 +474,17 @@ footer {
         text-align: center;
         padding: 5px 5px 5px 5px;
     }
+
+    #reset-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+/* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -401,7 +501,9 @@ footer {
         margin-top: 50px;
     }
 
-    #current-score-user {
+/* game area */
+
+    #current-score-computer {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -412,7 +514,7 @@ footer {
         margin-top: 20px;
     }
 
-    #current-score-computer {
+    #current-score-user {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -422,6 +524,8 @@ footer {
         margin-right: 80px;
         margin-bottom: 20px;
     }
+
+/* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
@@ -446,6 +550,8 @@ footer {
         justify-content: center;
     }
 
+    /* Button styles */
+
     #choices {
         display: flex;
         justify-content: space-evenly;
@@ -460,6 +566,17 @@ footer {
         text-align: center;
         padding: 5px 5px 5px 5px;
     }
+
+    #reset-btn {
+        transition-duration: 0.4s;
+        margin-right: 10px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+
+/* starting images */
 
     #rps-image-one {
         max-width: 100%;
@@ -476,6 +593,8 @@ footer {
         padding-left: 0px;
     }
 
+/* game area */
+
     #game-message {
         display: flex;
         justify-content: center;
@@ -484,7 +603,7 @@ footer {
     }
 
 
-    #current-score-user {
+    #current-score-computer {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -495,7 +614,7 @@ footer {
         margin-top: 0px;
     }
 
-    #current-score-computer {
+    #current-score-user {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -505,6 +624,8 @@ footer {
         margin-right: 0px;
         margin-bottom: 0px;
     }
+
+/* footer */
 
     footer {
         font-family: "Josefin Sans", sans-serif;
