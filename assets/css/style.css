@@ -20,8 +20,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(9,95,121);
-    background: linear-gradient(90deg, rgba(9,95,121,1) 9%, rgba(0,255,40,0.7329306722689075) 100%, rgba(2,0,36,1) 100%);
+    background: rgb(9, 95, 121);
+    background: linear-gradient(90deg, rgba(9, 95, 121, 1) 9%, rgba(0, 255, 40, 0.7329306722689075) 100%, rgba(2, 0, 36, 1) 100%);
 }
 
 /* Button styles */
@@ -136,16 +136,24 @@ footer {
         font-size: 2rem;
         text-align: center;
         padding: 5px 5px 5px 5px;
-        margin-right: ;
     }
 
-    #reset-btn {
+    #reset-game {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reset-btn {
         transition-duration: 0.4s;
-        margin-right: 10px;
-        font-family: "Josefin Sans", sans-serif;
+        margin-top: 10px;
+        display: flex;
+        margin-left: 348px;
+        color: black;
+        background-color: red;
+        font-weight: bold;
+        padding: 5px;
+        margin-bottom: 5px;
         font-size: 2rem;
-        text-align: center;
-        padding: 5px 5px 5px 5px;
     }
 
     /* starting images */
@@ -240,7 +248,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-    #reset-btn {
+    .reset-btn {
         transition-duration: 0.4s;
         margin-right: 10px;
         font-family: "Josefin Sans", sans-serif;
@@ -329,7 +337,7 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-    #reset-btn {
+    .reset-btn {
         transition-duration: 0.4s;
         margin-right: 10px;
         font-family: "Josefin Sans", sans-serif;
@@ -404,9 +412,9 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-    #reset-btn {
+    .reset-btn {
         transition-duration: 0.4s;
-        margin-right: 10px;
+        margin-right: 100px;
         font-family: "Josefin Sans", sans-serif;
         font-size: 2rem;
         text-align: center;
@@ -429,7 +437,17 @@ footer {
 
     /* game area */
 
-    #current-score {
+    #current-score-user {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    #current-score-computer {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -480,9 +498,9 @@ footer {
         padding: 5px 5px 5px 5px;
     }
 
-    #reset-btn {
+    .reset-btn {
         transition-duration: 0.4s;
-        margin-right: 10px;
+        margin-right: 100px;
         font-family: "Josefin Sans", sans-serif;
         font-size: 2rem;
         text-align: center;
@@ -559,26 +577,27 @@ footer {
 
     #choices {
         display: flex;
-        justify-content: space-evenly;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 
     .choice-btn {
         transition-duration: 0.4s;
-        margin-right: 10px;
+        margin-right: 200px;
         font-family: "Josefin Sans", sans-serif;
         font-size: 2rem;
         text-align: center;
         padding: 5px 5px 5px 5px;
     }
 
-    #reset-btn {
+    .reset-btn {
         transition-duration: 0.4s;
-        margin-right: 10px;
+        margin-right: 400px;
         font-family: "Josefin Sans", sans-serif;
         font-size: 2rem;
         text-align: center;
         padding: 5px 5px 5px 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     /* starting images */
@@ -586,7 +605,7 @@ footer {
     #rps-image-one {
         max-width: 100%;
         height: auto;
-        margin-left: 2px;
+        margin-left: 25px;
         margin-top: 160px;
     }
 
@@ -596,6 +615,7 @@ footer {
         margin-right: 30px;
         margin-top: 160px;
         padding-left: 0px;
+        margin-left: 30px;
     }
 
     /* game area */
@@ -604,7 +624,7 @@ footer {
         display: flex;
         justify-content: center;
         font-family: "Josefin Sans", sans-serif;
-        margin-top: 160px;
+        margin-top: 260px;
     }
 
 
@@ -616,7 +636,7 @@ footer {
         font-size: 30px;
         text-align: center;
         margin-right: 0px;
-        margin-top: 0px;
+        margin-top: 150px;
     }
 
     #current-score-user {
@@ -628,6 +648,7 @@ footer {
         text-align: center;
         margin-right: 0px;
         margin-bottom: 0px;
+        margin-top: 150px;
     }
 
     /* footer */
