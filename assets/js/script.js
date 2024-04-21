@@ -62,4 +62,13 @@ scissorsBtn.addEventListener('click', function() {
     playerChoice('scissors');
 })
 
-// Reset the scoresgit status
+// Reset the scores
+resetBtn.addEventListener('click', function() {
+    playerScore = 0;
+    computerScore = 0;
+    userScoreSpan.textContent = playerScore;
+    computerScoreSpan.textContent = computerScore;
+    messageDiv.textContent = "Message";
+    userImage.src = 'assets/images/rock-paper-scissors.webp';
+    computerImage.src = 'assets/images/rock-paper-scissors.webp';
+});
