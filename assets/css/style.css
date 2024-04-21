@@ -16,15 +16,21 @@
     justify-content: center;
 }
 
+/* used https://cssgradient.io/ to create gradient background */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(9, 95, 121);
-    background: linear-gradient(90deg, rgba(9, 95, 121, 1) 9%, rgba(0, 255, 40, 0.7329306722689075) 100%, rgba(2, 0, 36, 1) 100%);
+    background: rgb(9,95,121);
+    background: linear-gradient(90deg, rgba(9,95,121,1) 9%, rgba(0,102,255,1) 100%, rgba(2,0,36,1) 100%);
 }
 
 /* Button styles */
+
+#the-game {
+    display: flex;
+    flex-direction: column;
+}
 
 #choices {
     display: flex;
@@ -43,6 +49,19 @@ body {
 
 }
 
+#game-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#choice-statement {
+    display: flex;
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .reset-btn {
     transition-duration: 0.4s;
     margin-top: 10px;
@@ -54,6 +73,20 @@ body {
     padding: 5px;
     margin-bottom: 5px;
     font-size: 1rem;
+}
+
+.start-btn {
+    transition-duration: 0.4s;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+    color: black;
+    background-color: rgb(0, 174, 255);
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    margin-right: 75px;
 }
 
 /* starting images */

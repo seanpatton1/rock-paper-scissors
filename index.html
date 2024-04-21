@@ -26,38 +26,34 @@
     <!-- Game area -->
     <br>
     <section id="the-game">
-        <div id="user">
-            <img src="assets/images/rock-paper-scissors.webp" alt="Rock, Paper & Scissors" id="rps-image-one">
+        <div id="computer">
+            <img src="assets/images/rock-paper-scissors.png" alt="Rock, Paper & Scissors" id="rps-image-one">
         </div>
-        <br>
         <div id="current-score-computer">
             <h3>Computer Score: <span id="computer-score">0</span></h3>
         </div>
-        <div id="game-message">
-            <h1>Message</h1>
-        </div>
-        <br>
+        <div id="game-message"></div>
         <div id="current-score-user">
             <h3>Your Score: <span id="user-score">0</span></h3>
         </div>
         <br>
-        <div id="computer">
-            <img src="assets/images/rock-paper-scissors.webp" alt="Rock, Paper & Scissors" id="rps-image-two">
+        <div id="user">
+            <img src="assets/images/rock-paper-scissors.png" alt="Rock, Paper & Scissors" id="rps-image-two">
         </div>
 
     </section>
     <section id="game-choices">
         <br>
+        <div id="choice-statement">
+            <p>Make your choice:</p>
+        </div>
         <div id="choices">
-            <p></p>
             <button aria-label="Rock" data-choice="0" class="choice-btn">Rock</button>
             <button aria-label="Paper" data-choice="1" class="choice-btn">Paper</button>
             <button aria-label="Scissors" data-choice="2" class="choice-btn">Scissors</button>
         </div>
-        <div id="reset-game">
+        <div id="game-buttons">
             <button class="reset-btn">Reset</button>
-        </div>
-        <div id="start-game">
             <button class="start-btn">Start!</button>
         </div>
     </section>

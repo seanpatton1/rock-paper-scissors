@@ -1,20 +1,14 @@
-let playerScore = 0;
-let computerScore = 0;
-
 // constants declared for DOM elements and user/computer chocies
-const userScoreSpan = document.getElementById('user-score');
-const computerScoreSpan = document.getElementById('computer-score');
-const gameMessage = document.getElementById('game-message').querySelector('h1');
-const rockBtn = document.querySelector('[data-choice="0"]');
-const paperBtn = document.querySelector('[data-choice="1"]');
-const scissorsBtn = document.querySelector('[data-choice="2"]');
-const resetBtn = document.querySelector('.reset-btn');
-const userImage = document.getElementById('user').querySelector('img');
-const computerImage = document.getElementById('computer').querySelector('img');
+const userScore = document.getElementById('user-score');
+const computerScore = document.getElementById('user-score');
+const buttons = document.getElementsByClassName('choice-btn');
+const playerImage = document.getElementById('rps-image-two');
+const computerImage = document.getElementById('rps-image-one');
+const messages = document.getElementById('game-message');
+const choices = ['rock', 'paper', 'scissors'];
 
 // Function to randomly select the computer's choice
 function computerChoice() {
-    const choices = ['rock', 'paper', 'scissors'];
     const randomChoice = Math.floor(Math.random() * 3);
     return choices[randomChoice];
 }
@@ -50,25 +44,9 @@ function playerChoice(playerSelection) {
 }
 
 // Event listeners for the game buttons
-rockBtn.addEventListener('click', function() {
-    playerChoice('rock');
-})
 
-paperBtn.addEventListener('click', function() {
-    playerChoice('paper');
-})
 
-scissorsBtn.addEventListener('click', function() {
-    playerChoice('scissors');
-})
+// Start the game
+
 
 // Reset the scores
-resetBtn.addEventListener('click', function() {
-    playerScore = 0;
-    computerScore = 0;
-    userScoreSpan.textContent = playerScore;
-    computerScoreSpan.textContent = computerScore;
-    messageDiv.textContent = "Message";
-    userImage.src = 'assets/images/rock-paper-scissors.webp';
-    computerImage.src = 'assets/images/rock-paper-scissors.webp';
-});
