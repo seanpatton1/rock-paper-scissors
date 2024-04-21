@@ -30,11 +30,16 @@ body {
 #the-game {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #choices {
     display: flex;
     justify-content: space-evenly;
+}
+
+button {
+    border: 2px solid #000000;
 }
 
 .choice-btn {
@@ -91,19 +96,32 @@ body {
 
 /* starting images */
 
+#computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #rps-image-one {
     display: flex;
-    max-width: 75%;
+    max-width: 65%;
     height: auto;
-    padding-left: 60px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 3px #000000;
 }
 
 #rps-image-two {
     display: flex;
-    max-width: 75%;
+    max-width: 65%;
     height: auto;
-    padding-left: 60px;
-    margin-top: 15px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 3px #000000;
 }
 
 /* gzme area */
@@ -116,19 +134,12 @@ body {
 }
 
 #current-score-computer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 65px;
     font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
 }
 
 #current-score-user {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 75px;
-    margin-top: 15px;
+    margin-bottom: 20px;
     font-family: "Josefin Sans", sans-serif;
 }
 

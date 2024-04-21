@@ -7,46 +7,18 @@ const computerImage = document.getElementById('rps-image-one');
 const messages = document.getElementById('game-message');
 const choices = ['rock', 'paper', 'scissors'];
 
-// Function to randomly select the computer's choice
-function computerChoice() {
-    const randomChoice = Math.floor(Math.random() * 3);
-    return choices[randomChoice];
+// Function to randomly generate computer choice
+function getComputerChoice() {
+    const computerChoice = Math.floor(Math.random() * 3);
+    return computerChoice;
 }
 
-// Function to determine the winner of a round
-function playRound(playerSelection, computerSelection) {
-    if (playerSelection === computerSelection) {
-        return ("it's a tie");
-    } else if (
-        (playerSelection === 'rock' && computerSelection === 'scissors')
-        (playerSelection === 'paper' && computerSelection === 'rock')
-        (playerSelection === 'scissors' && computerSelection === 'paper')
-    ) {
-        playerScore++;
-        return "You win!" + playerSelection + "beats" + computerSelection;
-    } else {
-        computerScore++;
-        return "You lost!" + computerSelection + "beats" + playerSelection;
-    }
+function startGame(userChoice) {
+    const computerChoice = getComputerChoice();
+    const userChoiceName = choices[userChoice];
+    const computerChoiceName = choices[computerChoice];
+
+    // Update images
+    playerImage.src = `assets/images/${userChoiceName}.png`;
+    computerImage.src = `assets/images/${computerChoiceName}.png`;
 }
-
-
-// Function called when the player makes a choice
-function playerChoice(playerSelection) {
-    const computerSelection = computerPlay();
-    const result = playRound(playerSelection, computerSelection);
-    // Display the result
-    messageDiv.textContent = result;
-    userScoreSpan.textContent = playerScore;
-    computerScoreSpan.textContent = computerScore;
-    userImage.src = 'assets/images/' + playerSelection + '.webp';
-    computerImage.src = 'assets/images/' + computerSelection + '.webp';
-}
-
-// Event listeners for the game buttons
-
-
-// Start the game
-
-
-// Reset the scores
