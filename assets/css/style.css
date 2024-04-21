@@ -68,6 +68,11 @@ body {
 
 button {
     border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+button:hover {
+    color: #000000;
 }
 
 .choice-btn {
@@ -129,6 +134,7 @@ button {
     justify-content: center;
     font-family: "Josefin Sans", sans-serif;
     margin-top: 30px;
+    margin-left: 20px;
 }
 
 #current-score-computer {
@@ -144,7 +150,6 @@ button {
 /* footer */
 
 footer {
-    position: fixed;
     bottom: 0;
     font-family: "Josefin Sans", sans-serif;
     font-size: 1rem;
