@@ -50,5 +50,16 @@ function playerChoice(playerSelection) {
 }
 
 // Event listeners for the game buttons
+rockBtn.addEventListener('click', function() {
+    playerChoice('rock');
+})
+
+paperBtn.addEventListener('click', function() {
+    playerChoice('paper');
+})
+
+scissorsBtn.addEventListener('click', function() {
+    playerChoice('scissors');
+})
 
 // Reset the scoresgit status
