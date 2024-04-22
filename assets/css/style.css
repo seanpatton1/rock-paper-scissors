@@ -337,14 +337,34 @@ footer {
 /* Landing page styles */
 
 
+.lp-heading-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+#game-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}
+
 #lp-heading {
     display: flex;
-    font-size: 25px;
     justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 10px;
+}
+
+#start-game-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
 }
 
 
-.start-btn {
+.start-button {
     transition-duration: 0.4s;
     display: flex;
     color: black;
@@ -352,4 +372,13 @@ footer {
     font-weight: bold;
     padding: 5px;
     font-size: 2rem;
+}
+
+.link-one {
+    text-decoration: none;
+
+}
+
+.button-start {
+    margin-top: 20px; 
 }
