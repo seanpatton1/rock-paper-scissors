@@ -21,8 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(9, 95, 121);
-    background: linear-gradient(90deg, rgba(9, 95, 121, 1) 9%, rgba(0, 102, 255, 1) 100%, rgba(2, 0, 36, 1) 100%);
+    background: #9800FF;
+    background: linear-gradient(90deg, rgba(5,125,255,1) 0%, rgba(152,0,255,1) 42%);
 }
 
 /* starting images and scores */
@@ -82,7 +82,7 @@ button:hover {
     font-size: 1rem;
     text-align: center;
     padding: 5px;
-    background-color: rgb(100, 201, 100);
+    background-color: #00FFA5;
     font-weight: bold;
 
 }
@@ -105,7 +105,7 @@ button:hover {
     margin-top: 10px;
     display: flex;
     color: black;
-    background-color: red;
+    background-color: #FF1900;
     font-weight: bold;
     padding: 5px;
     margin-bottom: 5px;
@@ -116,7 +116,7 @@ button:hover {
     transition-duration: 0.4s;
     display: flex;
     color: black;
-    background-color: rgb(0, 174, 255);
+    background-color: #00DDFF;
     font-weight: bold;
     padding: 5px;
     font-size: 1rem;
@@ -405,5 +405,5 @@ footer {
 }
 
 .button-start {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
