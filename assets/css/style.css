@@ -89,7 +89,7 @@ button:hover {
 
 #game-buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 #choice-statement {
@@ -111,6 +111,18 @@ button:hover {
     padding: 5px;
     margin-bottom: 5px;
     font-size: 1rem;
+}
+
+.home-btn {
+    transition-duration: 0.4s;
+    display: flex;
+    color: black;
+    background-color: rgb(0, 174, 255);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 /* game area */

@@ -62,6 +62,10 @@ function startGame(userChoice) {
     // Check winner
     if (userChoice === computerChoice) {
         messages.innerHTML = `It's a draw! You both chose ${choices[userChoice]}.`;
+        // Check if its a close game
+        if (userScoreValue >= 7 && computerScoreValue >= 7 && Math.abs(userScoreValue - computerScoreValue ) <= 1) {
+            messages.innerHTML += "This is a close game!";
+        }
     } else if ((userChoice === 0 && computerChoice === 2) ||
         (userChoice === 1 && computerChoice === 0) ||
         (userChoice === 2 && computerChoice === 1)) {
