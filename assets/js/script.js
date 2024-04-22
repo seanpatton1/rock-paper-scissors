@@ -1,4 +1,6 @@
-// Constants declared for DOM elements and user/computer choices
+/**
+ * Constants declared for DOM elements and user/computer choices 
+ */ 
 const userScore = document.getElementById('user-score');
 const computerScore = document.getElementById('computer-score');
 const buttons = document.getElementsByClassName('choice-btn');
@@ -7,17 +9,26 @@ const computerImage = document.getElementById('rps-image-one');
 const messages = document.getElementById('game-message');
 const choices = ['rock', 'paper', 'scissors'];
 
-// Variables to track the scores
+/**
+ * Variables to track the scores
+ */
 let userScoreValue = 0;
 let computerScoreValue = 0;
 
-// Function to randomly generate computer choice
+/**
+ * Function to randomly generate computer choice 
+ */ 
 function getComputerChoice() {
     const computerChoice = Math.floor(Math.random() * 3);
     return computerChoice;
 }
 
-// Function to check if any player has reached the score of 10
+
+/**
+ * Function to check if any player has reached the score of 10
+ * Used template from - https://stackoverflow.com/questions/64283015/vanilla-javascript-end-game-when-player-reaches-a-certain-score 
+ * edited to suit the game
+ */ 
 function checkScore() {
     if (userScoreValue === 10) {
         messages.innerHTML = 'Congratulations! You won the game!';
@@ -28,14 +39,22 @@ function checkScore() {
     }
 }
 
-// Function to disable buttons after one player has reached the score of 10
+/**
+ * Function to disable buttons after one player has reached the score of 10
+ * used - https://www.altcademy.com/blog/how-to-disable-a-button-in-javascript/#:~:text=In%20JavaScript%2C%20you%20can%20disable,or%20false%20to%20enable%20it.
+ * for reference
+ */ 
 function disableButtons() {
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].disabled = true;
     }
 }
 
-// Function to reset the scores
+/**
+ * Function to reset the scores
+ * used - https://stackoverflow.com/questions/49432077/how-can-i-reset-both-scores-to-0-once-10-is-reached
+ * for reference
+ */ 
 function resetScores() {
     userScoreValue = 0;
     computerScoreValue = 0;
@@ -49,7 +68,9 @@ function resetScores() {
     computerImage.src = "assets/images/rock-paper-scissors.png";
 }
 
-// Function to get the user choice and start the game
+/**
+ * Function to get the user choice and start the game 
+ */ 
 function startGame(userChoice) {
     const computerChoice = getComputerChoice();
     const userChoiceName = choices[userChoice];
@@ -81,7 +102,11 @@ function startGame(userChoice) {
     checkScore();
 }
 
-// Adding event listeners to buttons
+/**
+ * Adding event listeners to buttons
+ * used - https://stackoverflow.com/questions/77524755/how-to-get-a-value-from-the-innerhtml-through-a-event-listener-if-you-click-on-o
+ * for reference - edited to suit the game
+ * */ 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function () {
         startGame(parseInt(this.getAttribute('data-choice')));
