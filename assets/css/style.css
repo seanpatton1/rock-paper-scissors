@@ -113,20 +113,6 @@ button:hover {
     font-size: 1rem;
 }
 
-.start-btn {
-    transition-duration: 0.4s;
-    margin-top: 10px;
-    display: flex;
-    margin-left: 20px;
-    color: black;
-    background-color: rgb(0, 174, 255);
-    font-weight: bold;
-    padding: 5px;
-    margin-bottom: 5px;
-    font-size: 1rem;
-    margin-right: 75px;
-}
-
 /* game area */
 
 #game-message {
@@ -212,16 +198,6 @@ footer {
         font-size: 2rem;
     }
 
-    .start-btn {
-        transition-duration: 0.4s;
-        display: flex;
-        color: black;
-        background-color: rgb(0, 174, 255);
-        font-weight: bold;
-        padding: 5px;
-        font-size: 2rem;
-    }
-
     /* starting images */
 
     #rps-image-one {
@@ -286,7 +262,7 @@ footer {
         font-size: 25px;
         justify-content: center;
     }
-    
+
     /* Button styles */
 
     #choices {
@@ -355,4 +331,25 @@ footer {
         min-height: 60px;
     }
 
+}
+
+
+/* Landing page styles */
+
+
+#lp-heading {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+
+.start-btn {
+    transition-duration: 0.4s;
+    display: flex;
+    color: black;
+    background-color: rgb(0, 174, 255);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 2rem;
 }
