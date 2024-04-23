@@ -143,25 +143,25 @@ I've outlined the design on pen and paper, creating multiple versions before fin
 
 ### Testing User Stories
 
-* As a customer, I want to know the rules of the game before playing
+* As a customer, I want to know the rules of the game before playing. 
 
-     - The rules for the game are set in the footer of the page
+     - The rules for the game are set in the footer of the page.
 
-* As a customer, I want to be able to compete again the computer
+* As a customer, I want to be able to compete again the computer.
 
-    - There is JavaScript set to allow the user to play against the computer
+    - There is JavaScript set to allow the user to play against the computer.
 
-* As a customer, I want and interesting design to help me engage with the game
+* As a customer, I want and interesting design to help me engage with the game.
 
-    - I have selected a colour scheme and design to help engagement
+    - I have selected a colour scheme and design to help engagement.
 
-* As a customer, I want to be able to track my correct answers
+* As a customer, I want to be able to track my correct answers.
 
-    - THe game shows the user how many correct answers both they have made and the computer
+    - THe game shows the user how many correct answers both they have made and the computer.
 
-* As a customer, I want to have a clear goal to win the game
+* As a customer, I want to have a clear goal to win the game.
 
-    - The game is designed as first to 10 with a display message telling the user who won
+    - The game is designed as first to 10 with a display message telling the user who won.
 
 ### Code Validation
 
@@ -188,7 +188,7 @@ I've outlined the design on pen and paper, creating multiple versions before fin
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-    - Chrome dev tools was used throughout the development of the project, testing mostly CSS design with some minor changes in HTML to test structure.
+    - Chrome dev tools was used throughout the development of the project, testing mostly CSS design with some minor changes in HTML to test structure as well as console/sources when checking JavaScript.
 
 * Responsiveness
     
