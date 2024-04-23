@@ -109,6 +109,8 @@ body {
 #choices {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 30px;
 }
 
 button {
@@ -129,10 +131,10 @@ button {
 }
 
 #game-choices {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-#game-buttons {
+#reset {
     display: flex;
     justify-content: space-around;
 }
@@ -147,7 +149,7 @@ button {
 
 .reset-btn {
     transition-duration: 0.4s;
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     color: black;
     background-color: #FF1900;
@@ -205,6 +207,13 @@ footer {
 
     /* Button styles */
 
+    #the-game {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    
     #choices {
         display: flex;
         justify-content: space-evenly;
@@ -215,7 +224,7 @@ footer {
         transition-duration: 0.4s;
         margin-right: 10px;
         font-family: "Josefin Sans", sans-serif;
-        font-size: 2rem;
+        font-size: 24px;
         text-align: center;
         padding: 5px 5px 5px 5px;
     }
@@ -228,7 +237,7 @@ footer {
 
     #choice-statement {
         display: flex;
-        font-size: 2rem;
+        font-size: 24px;
         font-family: "Josefin Sans", sans-serif;
         justify-content: center;
         margin-bottom: 10px;
@@ -241,7 +250,9 @@ footer {
         background-color: red;
         font-weight: bold;
         padding: 5px;
-        font-size: 2rem;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-right: 29px;
     }
 
     .home-btn {
@@ -260,15 +271,14 @@ footer {
     /* starting images */
 
     #rps-image-one {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
         margin-top: 20px;
     }
 
     #rps-image-two {
-        max-width: 1000%;
+        max-width: 90%;
         height: auto;
-        margin-bottom: 30px;
     }
 
     /* game area */
@@ -298,6 +308,7 @@ footer {
     /* footer */
 
     footer {
+        position: relative;
         bottom: 0;
         font-family: "Josefin Sans", sans-serif;
         font-size: 23px;
