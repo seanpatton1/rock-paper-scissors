@@ -18,25 +18,49 @@
 </head>
 
 <body>
-    <header class="lp-heading-main">
-        <div id="lp-heading">
+    <header>
+        <div id="main-heading-one">
             <h1>Rock, Paper & Scissors</h1>
         </div>
     </header>
-    <section id="game-start">
-        <div id="start-game-heading">
-            <h2>Start New Game!</h2>
+    <!-- Game area -->
+    <br>
+    <section id="the-game">
+        <div id="computer">
+            <img src="assets/images/rock-paper-scissors.png" alt="Rock, Paper & Scissors" id="rps-image-one">
         </div>
-        <div class="button-start">
-            <a href="game-page.html" class="link-one">
-                <button class="start-button">Start</button>
-            </a>
+        <div id="current-score-computer">
+            <h3>Computer Score: <span id="computer-score">0</span></h3>
+        </div>
+        <div id="game-message"></div>
+        <br>
+        <div id="current-score-user">
+            <h3>Your Score: <span id="user-score">0</span></h3>
+        </div>
+        <div id="user">
+            <img src="assets/images/rock-paper-scissors.png" alt="Rock, Paper & Scissors" id="rps-image-two">
+        </div>
+
+    </section>
+    <section id="game-choices">
+        <br>
+        <div id="choice-statement">
+            <p>Make your choice:</p>
+        </div>
+        <div id="choices">
+            <button aria-label="Rock" data-choice="0" class="choice-btn">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="choice-btn">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="choice-btn">Scissors</button>
+        </div>
+        <div id="game-buttons">
+            <button class="reset-btn">Reset</button>
+            <button class="home-btn" onclick="location.href='index.html'">Home</button>
         </div>
     </section>
-    <!-- Game rules -->
+<!-- Game rules -->
     <footer>
-        <div id="creator">
-            <p>Game created by - Sean Patton</p>
+        <div>
+            <p>Rules - Rock breaks scissors - Scissors cuts paper - Paper covers rock</p>
         </div>
     </footer>
 

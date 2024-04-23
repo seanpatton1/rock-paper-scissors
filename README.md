@@ -1,9 +1,9 @@
 # Rcok, Paper & Scissors
-![Gutiar history 101 responsive image](assets/readme-files/am-I-responsive.png)
+![Rock, Paper & Scissors responsive image](assets/readme-files/am-I-responsive.png)
 
 I've developed a rock-paper-scissors game where users compete against the computer to be the first to reach 10 points. The game features a simple layout and vibrant color scheme to enhance the user experience.
 
-Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic-and-Electric-Guitar/index.html).
+Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-scissors/).
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Acoustic Page](#acoustic-guitar-page)
+    3. [Game page](#game-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Libraries and Programs Used](#libraries-and-programs-used)
@@ -41,7 +41,11 @@ Visit the deployed website [here](https://seanpatton1.github.io/History-Acoustic
 
 ### Project Goals
 
-* 
+* The game page creates an inviting layout with images to support the game
+
+* Give the user a visual queue of the current score and clear rules for the game
+
+* Allow the user to see the outcome through a message on the screen once something is selected
 
 ### User Stories
 
