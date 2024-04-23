@@ -8,12 +8,56 @@
     box-sizing: border-box;
 }
 
+/*html {
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
+    background: 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+  }*/
+
+  /*html {
+	--u: 2.5vmin;
+    --c1: hsl(0deg 0% 0%);
+    --c2: hsl(212deg 4% 9%);
+    --c3: hsl(212deg 7% 36%);
+    --gp: 50%/calc(var(--u) * 5) calc(var(--u) * 10);
+    --bp: calc(var(--u) * -2.5) calc(var(--u) * -5);
+    height: 100vh;
+    --bg: 
+		radial-gradient(circle at 50% 25%, var(--c2) 23%, #fff0 25% 100%) var(--gp), 
+		conic-gradient(from 270deg at 34% 46%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 45deg at 66% 46%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 180deg at 50% 80%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 135deg at 50% 80%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 0deg at 0% 20%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from -45deg at 100% 20%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		linear-gradient(180deg, var(--c2) 0 4.5%, #fff0 0 45.25%, var(--c2) 0 50%, #fff0 0% 100%) var(--gp), 
+		radial-gradient(circle at 50% 25%, #fff0 0 25%, var(--c2) 26% 32%, #fff0 0 100%) var(--gp), 
+		linear-gradient(165deg, var(--c3) -15%, var(--c1) 44%, #fff0 0 100%) var(--gp), 
+		linear-gradient(180deg, var(--c1) 50%, #fff0 0 100%) var(--gp);
+    background: var(--bg), var(--bg);
+    background-position: 
+		var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 
+		0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+	background-color: var(--c2);
+}*/
+
 /* Game page */
 
 #main-heading-one {
     display: flex;
     font-size: 12px;
     justify-content: center;
+    margin-top: 5px;
 }
 
 /* used https://cssgradient.io/ to create gradient background */
@@ -22,7 +66,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background: #9800FF;
-    background: linear-gradient(90deg, rgba(5,125,255,1) 0%, rgba(152,0,255,1) 42%);
+    /*background: linear-gradient(90deg, rgba(5, 125, 255, 1) 0%, rgba(152, 0, 255, 1) 42%);*/
 }
 
 /* starting images and scores */
@@ -40,14 +84,14 @@ body {
 }
 
 #rps-image-one {
-    max-width: 65%;
+    max-width: 70%;
     height: auto;
     border: 3px solid #000000;
     box-shadow: 3px 3px 3px #000000;
 }
 
 #rps-image-two {
-    max-width: 65%;
+    max-width: 70%;
     height: auto;
     border: 3px solid #000000;
     box-shadow: 3px 3px 3px #000000;
@@ -59,6 +103,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 
 #choices {
@@ -71,10 +116,6 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
-    color: #000000;
-}
-
 .choice-btn {
     transition-duration: 0.4s;
     margin-right: 10px;
@@ -85,6 +126,10 @@ button:hover {
     background-color: #00FFA5;
     font-weight: bold;
 
+}
+
+#game-choices {
+    margin-top: 5px;
 }
 
 #game-buttons {
@@ -264,7 +309,6 @@ footer {
     /* footer */
 
     footer {
-        position: fixed;
         bottom: 0;
         font-family: "Josefin Sans", sans-serif;
         font-size: 23px;
@@ -340,6 +384,10 @@ footer {
         font-size: 2rem;
     }
 
+    button:hover {
+        color: #000000;
+    }
+
     /* footer */
 
     footer {
@@ -373,14 +421,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 260px;
 }
 
 #lp-heading {
     display: flex;
     justify-content: center;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 #start-game-heading {
@@ -399,6 +447,11 @@ footer {
     font-size: 2rem;
 }
 
+#game-rules {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+}
+
 .link-one {
     text-decoration: none;
 
@@ -406,4 +459,8 @@ footer {
 
 .button-start {
     margin-top: 20px;
+}
+
+#creator {
+    margin-top: 5px;
 }
