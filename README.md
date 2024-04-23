@@ -1,6 +1,6 @@
 # Rock, Paper & Scissors
 
-![Rock, Paper & Scissors responsive image](assets/readme-files/am-I-responsive.png)
+![Rock, Paper & Scissors responsive image]()
 
 I've developed a rock-paper-scissors game where users compete against the computer to be the first to reach 10 points. The game features a simple layout and vibrant color scheme to enhance the user experience.
 
@@ -207,20 +207,41 @@ I've outlined the design on pen and paper, creating multiple versions before fin
 
 * Elements Testing
 
-    - All Pages
+    - Game Page
         
-        - **Header**
-            - Header correct accross different devices 
+        - **Buttons**
+            - Buttons adjust throughout all views
+
+        - **Game images**
+            - Game images adjust in size and the screen changes
+
+* JavaScript Testing
+
+     - Game Page
+        - **Buttons**
+            - Buttons work throughout the game and reset button correctly resets the scores.
+
+        - **Images**
+            - Images change correctly when user/computer selects their choice. Base image loads on game start and when reset button is clicked.
+
+        - **Game testing - Other Users**
+            - Multiple users have played the game to ensure it works correctly - no issues found.
 
 
 [Back to top ⇧](#guitar-history-101)
 
 ### Validator errors
 
+**No JavaScript errors found**
+
+**lighthouse error**
+
+**footer error**
+
 
 ## Finished Product
 
-### Landing Page
+### Game Page
 
 
 [Back to top ⇧](#guitar-history-101)
