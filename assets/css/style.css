@@ -57,7 +57,7 @@
     display: flex;
     font-size: 12px;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 /* used https://cssgradient.io/ to create gradient background */
@@ -65,8 +65,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #9800FF;
-    /*background: linear-gradient(90deg, rgba(5, 125, 255, 1) 0%, rgba(152, 0, 255, 1) 42%);*/
+    /*background: #9800FF;*/
+    background: linear-gradient(90deg, rgba(63, 202, 234, 1) 0%, rgba(8, 165, 90, 1) 42%);
 }
 
 /* starting images and scores */
@@ -120,7 +120,7 @@ button {
     transition-duration: 0.4s;
     margin-right: 10px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
     text-align: center;
     padding: 5px;
     background-color: #00FFA5;
@@ -139,7 +139,7 @@ button {
 
 #choice-statement {
     display: flex;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: "Josefin Sans", sans-serif;
     justify-content: center;
     margin-bottom: 10px;
@@ -154,21 +154,9 @@ button {
     font-weight: bold;
     padding: 5px;
     margin-bottom: 5px;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
-.home-btn {
-    transition-duration: 0.4s;
-    display: flex;
-    color: black;
-    background-color: #00DDFF;
-    font-weight: bold;
-    padding: 5px;
-    font-size: 1rem;
-    text-decoration: none;
-    margin-top: 10px;
-    height: fit-content;
-}
 
 /* game area */
 
@@ -203,6 +191,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     min-height: 50px;
+    position: fixed;
 }
 
 
@@ -404,63 +393,4 @@ footer {
         min-height: 60px;
     }
 
-}
-
-
-/* Landing page styles */
-
-
-.lp-heading-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 8px;
-}
-
-#game-start {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 260px;
-}
-
-#lp-heading {
-    display: flex;
-    justify-content: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 13px;
-}
-
-#start-game-heading {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 1rem;
-}
-
-
-.start-button {
-    transition-duration: 0.4s;
-    display: flex;
-    color: black;
-    background-color: rgb(0, 174, 255);
-    font-weight: bold;
-    padding: 5px;
-    font-size: 2rem;
-}
-
-#game-rules {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 1rem;
-}
-
-.link-one {
-    text-decoration: none;
-
-}
-
-.button-start {
-    margin-top: 20px;
-}
-
-#creator {
-    margin-top: 5px;
 }

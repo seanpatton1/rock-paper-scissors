@@ -1,4 +1,5 @@
-# Rcok, Paper & Scissors
+# Rock, Paper & Scissors
+
 ![Rock, Paper & Scissors responsive image](assets/readme-files/am-I-responsive.png)
 
 I've developed a rock-paper-scissors game where users compete against the computer to be the first to reach 10 points. The game features a simple layout and vibrant color scheme to enhance the user experience.
@@ -41,54 +42,60 @@ Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-sciss
 
 ### Project Goals
 
-* The game page creates an inviting layout with images to support the game
+* The game page presents an inviting layout with supporting images for enhanced gameplay.
 
-* Give the user a visual queue of the current score and clear rules for the game
+* Provide the user with a visual indication of the current score and clear game rules.
 
-* Allow the user to see the outcome through a message on the screen once something is selected
+* Enable the user to view the outcome through an on-screen message once a selection is made.
 
 ### User Stories
 
-* 
+* As a customer, I desire a clear indication of how to play the game.
+
+* As a customer, I want to be aware of both my score and the computer's score.
+
+* As a customer, I desire an attractive color scheme and layout.
+
+* As a customer, I want an end game result or target score to aim for.
 
 ### Color Scheme
 
 
 ### Typography
 
+I have selected Josefin Sans for the entirety of the website. On the game page, the font styling varies, with bolder fonts used for the score area. The same bold styling is applied to the game buttons and the game rules in the footer.
 
 ### Basic Design
+
+I've outlined the design on pen and paper, creating multiple versions before finalizing the current live project. The design was focused on ensuring everything is within view of the user, including specific adjustments for the mobile view to accommodate the placement of the user's hand while holding the phone.
 
 ## Features
 
 ### General
 
-* 
+* The colour scheme chosen consists on is green and blue with black and white fonts. I have used a linear gradient for the background combining the green and blue. 
+
+* The website has been optimized to function seamlessly across multiple screen sizes, from mobile and tablet to desktop computers, utilizing responsive design. It adjusts the page layout according to the user's device to cater to as many users as possible.
 
 * **Header**
 
 !
 
-- 
+- Font size adjusts as the screen sizes grows
+
+- As this is a standalone page there are no nav links in the header
 
 * **Footer**
 
 !
 
-- 
+- The footer give the user the rules of the game.
 
-### Landing Page
-
-!
-
-- 
-
-### Acoustic Guitar Page
+### Game page
 
 !
 
-- 
-
+- I have utilized images from [Pinterest](https://in.pinterest.com/pin/747879081845727421/) to user for the game images. I have then split these up to display as the user selects their choice.
 
 
 ## Technologies Used
@@ -97,18 +104,13 @@ Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-sciss
 
 * HTML5(https://en.wikipedia.org/wiki/HTML5)
 * CSS(https://en.wikipedia.org/wiki/CSS)
+* JavaScript(https://en.wikipedia.org/wiki/JavaScript)
 
 
 ### Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to import the font Oswald with sans-serif as a backup.
-
-* [Font Awesome](https://fontawesome.com/)
-    - Font Awesome was used for the social media links.
-
-* [image converter](https://image.online-convert.com/)
-    - I utilized this website to convert the images I've employed into WebP format.
 
 * [GitPod](https://gitpod.io/)
     - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -131,36 +133,39 @@ Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-sciss
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#guitar-history-101)
+* [JSHint](https://jshint.com/)
+    - JSHint was used to validate the JavaScript code.
+
+[Back to top ⇧](#rock-paper-scissors)
 
 
 ## Testing
 
 ### Testing User Stories
 
-* As a customer, I want to be able to 
+* As a customer, I want to know the rules of the game before playing
 
-     - 
+     - The rules for the game are set in the footer of the page
 
-* 
+* As a customer, I want to be able to compete again the computer
 
-    - 
+    - There is JavaScript set to allow the user to play against the computer
 
-* As a customer, I want 
+* As a customer, I want and interesting design to help me engage with the game
 
-    - 
+    - I have selected a colour scheme and design to help engagement
 
-* As a customer
+* As a customer, I want to be able to track my correct answers
 
-    - 
+    - THe game shows the user how many correct answers both they have made and the computer
 
-* 
+* As a customer, I want to have a clear goal to win the game
 
-    - 
+    - The game is designed as first to 10 with a display message telling the user who won
 
 ### Code Validation
 
-* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+* The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com/)
 
 
 ### Accessibility
@@ -168,6 +173,14 @@ Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-sciss
 * Used Lighthouse 
 
 * Lighthouse reports
+        
+        - **Game Page**
+
+        - Mobile View
+        !insert image
+
+        - Desktop View
+        !insert image
 
     
 
