@@ -2,7 +2,9 @@
 
 ![Rock, Paper & Scissors responsive image]()
 
-I've developed a rock-paper-scissors game where users compete against the computer to be the first to reach 10 points. The game features a simple layout and vibrant color scheme to enhance the user experience.
+I've created a rock-paper-scissors game where users compete against the computer in a fun and engaging battle. The game showcases a straightforward layout and vibrant color scheme designed to elevate the user experience. The goal of the game is to provide users with a brief and entertaining competition against the computer, where the first player to reach 10 victories wins.
+
+The rules are simple: players choose between rock, paper, or scissors. The opponent also selects one of these three options. Remember, Rock defeats scissors, scissors defeat paper, and paper defeats rock.
 
 Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-scissors/).
 
@@ -136,7 +138,7 @@ I've outlined the design on pen and paper, creating multiple versions before fin
 * [JSHint](https://jshint.com/)
     - JSHint was used to validate the JavaScript code.
 
-[Back to top ⇧](#rock-paper-scissors)
+[Back to top ⇧](#table-of-contents)
 
 
 ## Testing
