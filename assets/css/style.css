@@ -22,11 +22,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /*background: #9800FF;*/
     background: linear-gradient(90deg, rgba(63, 202, 234, 1) 0%, rgba(8, 165, 90, 1) 42%);
 }
 
-/* starting images and scores */
+/* starting images */
 
 #computer {
     display: flex;
@@ -55,13 +54,6 @@ body {
 }
 
 /* Button styles */
-
-#the-game {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
 
 #choices {
     display: flex;
@@ -96,15 +88,6 @@ button {
     justify-content: center;
 }
 
-#choice-statement {
-    display: flex;
-    font-size: 24px;
-    font-family: "Josefin Sans", sans-serif;
-    justify-content: center;
-    margin-bottom: 10px;
-    
-}
-
 .reset-btn {
     transition-duration: 0.4s;
     margin-top: 30px;
@@ -120,6 +103,22 @@ button {
 
 
 /* game area */
+
+#the-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#choice-statement {
+    display: flex;
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    justify-content: center;
+    margin-bottom: 10px;  
+}
+
 
 #game-message {
     display: flex;
@@ -165,13 +164,6 @@ footer {
     }
 
     /* Button styles */
-
-    #the-game {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0;
-    }
     
     #choices {
         display: flex;
@@ -206,7 +198,7 @@ footer {
         transition-duration: 0.4s;
         display: flex;
         color: black;
-        background-color: red;
+        background-color: #FD544F;
         font-weight: bold;
         padding: 5px;
         font-size: 24px;
@@ -241,6 +233,13 @@ footer {
     }
 
     /* game area */
+
+    #the-game {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
 
     #current-score-computer {
         display: flex;
@@ -315,36 +314,24 @@ footer {
         margin-bottom: 20px;
     }
 
+    .reset-btn {
+        transition-duration: 0.4s;
+        display: flex;
+        color: black;
+        background-color: #FD544F;
+        font-weight: bold;
+        padding: 5px;
+        font-size: 2rem;
+    }
+
+    /* Game area */
+
     #choice-statement {
         display: flex;
         font-size: 2rem;
         font-family: "Josefin Sans", sans-serif;
         justify-content: center;
         margin-bottom: 10px;
-    }
-
-    .reset-btn {
-        transition-duration: 0.4s;
-        display: flex;
-        color: black;
-        background-color: red;
-        font-weight: bold;
-        padding: 5px;
-        font-size: 2rem;
-    }
-
-    .start-btn {
-        transition-duration: 0.4s;
-        display: flex;
-        color: black;
-        background-color: rgb(0, 174, 255);
-        font-weight: bold;
-        padding: 5px;
-        font-size: 2rem;
-    }
-
-    button:hover {
-        color: #000000;
     }
 
     /* footer */

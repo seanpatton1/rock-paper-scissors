@@ -62,6 +62,9 @@ Visit the deployed website [here](https://seanpatton1.github.io/rock-paper-sciss
 
 ### Color Scheme
 
+I have chosen the below pallate using [mycolor.space](https://mycolor.space/?hex=%2308A55A&sub=1) adding in white and black.
+
+![Colour-pallate](assets/readme-files/colour-pallate.png)
 
 ### Typography
 
@@ -71,15 +74,19 @@ I have selected Josefin Sans for the entirety of the website. On the game page, 
 
 ### Basic Design
 
-I've outlined the design on pen and paper, creating multiple versions before finalizing the current live project. The design was focused on ensuring everything is within view of the user, including specific adjustments for the mobile view to accommodate the placement of the user's hand while holding the phone.
+I've sketched out the design on paper, iterating through multiple versions before settling on the current live project. The emphasis was on making sure everything remains visible to the user, with particular attention given to optimizing the layout for mobile viewing to accommodate how users hold their phones. The below images show the orginal design with the old button placement before optimizing the layout
+
+![Desktop-image](assets/readme-files/Sketch-one.png)
+
+![Mobile-image](assets/readme-files/Sketch-two.png)
 
 ## Features
 
 ### General
 
-* The colour scheme chosen consists on is green and blue with black and white fonts. I have used a linear gradient for the background combining the green and blue. 
+* The selected color palette features shades of green and blue, complemented by black and white fonts. To create the background, I've utilized a linear gradient blending the green and blue hues.
 
-* The website has been optimized to function seamlessly across multiple screen sizes, from mobile and tablet to desktop computers, utilizing responsive design. It adjusts the page layout according to the user's device to cater to as many users as possible.
+* The website has been fine-tuned for smooth performance across various screen sizes, spanning from mobile and tablet to desktop computers, through responsive design. This adaptation ensures that the page layout adjusts dynamically based on the user's device, aiming to accommodate a broad range of users.
 
 * **Header**
 
@@ -114,7 +121,7 @@ I've outlined the design on pen and paper, creating multiple versions before fin
 ### Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the font Oswald with sans-serif as a backup.
+    - Google Fonts was used to import the font Josefin Sans with sans-serif as a backup.
 
 * [GitPod](https://gitpod.io/)
     - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -161,7 +168,7 @@ I've outlined the design on pen and paper, creating multiple versions before fin
 
 * As a customer, I want to be able to track my correct answers.
 
-    - THe game shows the user how many correct answers both they have made and the computer.
+    - The game shows the user how many correct answers both they have made and the computer.
 
 * As a customer, I want to have a clear goal to win the game.
 
