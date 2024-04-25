@@ -68,13 +68,13 @@ I have chosen the below pallate using [mycolor.space](https://mycolor.space/?hex
 
 ### Typography
 
-I have selected Josefin Sans for the entirety of the website. On the game page, the font styling varies, with bolder fonts used for the score area. The same bold styling is applied to the game buttons and the game rules in the footer. I have chosen this font as I felt it went well within a game but also easily legible. I chose this over others to ensure it was easier for as many people as possible.
+I've opted for Josefin Sans as the universal font across the entire website. However, on the game page, there's a variation in font styling, particularly with the implementation of bolder fonts for the score section, game buttons, and game rules in the footer. I selected this font because it blends well with the gaming theme while maintaining readability. This choice was made to enhance accessibility for a broader audience.
 
 ![Josefin Sans - lowercase](assets/readme-files/lowercacse.png)  ![Josefin Sans - UPPERCASE](assets/readme-files/uppercase.png)
 
 ### Basic Design
 
-I've sketched out the design on paper, iterating through multiple versions before settling on the current live project. The emphasis was on making sure everything remains visible to the user, with particular attention given to optimizing the layout for mobile viewing to accommodate how users hold their phones. The below images show the orginal design with the old button placement before optimizing the layout
+I've sketched out the design on paper, iterating through multiple versions before settling on the current live project. The emphasis was on making sure everything remains visible to the user, with particular attention given to optimizing the layout for mobile viewing to accommodate how users hold their phones. The images below display the original design featuring the previous button placement, prior to optimizing the layout.
 
 ![Desktop-image](assets/readme-files/Sketch-one.png)
 
@@ -106,7 +106,7 @@ I've sketched out the design on paper, iterating through multiple versions befor
 
 ![Game-page](assets/readme-files/game-page-2.png)
 
-- I have utilized images from [Pinterest](https://in.pinterest.com/pin/747879081845727421/) to user for the game images. I have then split these up to display as the user selects their choice.
+- I have utilized images from [Pinterest](https://in.pinterest.com/pin/747879081845727421/) to user for the game images. I've subsequently divided these elements to be displayed individually as the user makes their selection.
 
 
 ## Technologies Used
@@ -154,23 +154,23 @@ I've sketched out the design on paper, iterating through multiple versions befor
 
 ### Testing User Stories
 
-* As a customer, I want to know the rules of the game before playing. 
+* As a customer, I seek clarity on the game rules before engaging in play. 
 
      - The rules for the game are set in the footer of the page.
 
-* As a customer, I want to be able to compete again the computer.
+* As a customer, I desire the ability to compete against the computer.
 
     - There is JavaScript set to allow the user to play against the computer.
 
-* As a customer, I want and interesting design to help me engage with the game.
+* As a customer, I seek an engaging design that enhances my interaction with the game.
 
     - I have selected a colour scheme and design to help engagement.
 
-* As a customer, I want to be able to track my correct answers.
+* As a customer, I wish to stay informed about the game's score as I progress.
 
     - The game shows the user how many correct answers both they have made and the computer.
 
-* As a customer, I want to have a clear goal to win the game.
+* As a customer, I seek a clearly defined objective to achieve victory in the game.
 
     - The game is designed as first to 10 with a display message telling the user who won.
 
@@ -263,6 +263,8 @@ There was accessibility issues for this as I had used h1 tags for the header and
 
 ![Lighthouse-fix](assets/readme-files/lighthouse2.png)
 
+**HTML validator error**
+
 There was a warning when checking HTML - No heading for second section - fixed by changing "Make a choice" to h3
 
 ![html-val-warning](assets/readme-files/html-val-warning.png)
@@ -295,18 +297,18 @@ There was a warning when checking HTML - No heading for second section - fixed b
 
 ### Code
 
-- Code references commented on JavaScript 
+- Code references commented on JavaScript file.
 
-- [YouTube](https://www.youtube.com/), [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) were used throughout the creation of this project.
+- [YouTube](https://www.youtube.com/), [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) were used throughout the creation of this project. I found [Youtube-Kevein-Powell](https://www.youtube.com/@KevinPowell) very helpful with CSS styling issues.
 
 [Back to top ⇧](#table-of-contents)
 
 ## Acknowledgements
 
-- I'd like to firstly thank my girlfriend Martina, She has assisted with the images and was a sounding board when deciding on a colour scheme for the pag
+- I would like to express my gratitude to my girlfriend, Martina. She has contributed to the image selection and served as a valuable sounding board during the process of deciding on a color scheme for the page.
 
-- I would like to thank Marcel, He was invaluable when it came to design and the creation of this README file. He gave insights which I had not thought of
+- I want to extend my gratitude to Marcel for his invaluable contributions to the design and creation of this README file. His insights provided perspectives that I had not previously considered.
 
-- I would like to thank everyone who tested the game to ensure it worked correctly and also for their attempts to break it to ensure its robustness
+- I express my gratitude to everyone who tested the game, ensuring its proper functionality, and also for their efforts to stress-test it, ensuring its robustness.
 
 [Back to top ⇧](#table-of-contents)
