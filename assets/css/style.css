@@ -241,6 +241,10 @@ footer {
         margin-top: 0;
     }
 
+    #game-message {
+        font-size: 20px;
+    }
+
     #current-score-computer {
         display: flex;
         justify-content: center;
