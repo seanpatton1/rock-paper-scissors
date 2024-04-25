@@ -52,7 +52,7 @@ function disableButtons() {
 
 /**
  * Function to reset the scores
- * used - https://stackoverflow.com/questions/49432077/how-can-i-reset-both-scores-to-0-once-10-is-reached
+ * used - https://www.altcademy.com/?ref=blog
  * for reference
  */ 
 function resetScores() {
