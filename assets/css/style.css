@@ -98,10 +98,11 @@ button {
 
 #choice-statement {
     display: flex;
-    font-size: 2rem;
+    font-size: 24px;
     font-family: "Josefin Sans", sans-serif;
     justify-content: center;
     margin-bottom: 10px;
+    
 }
 
 .reset-btn {
