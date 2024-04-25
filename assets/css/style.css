@@ -12,7 +12,7 @@
 
 #main-heading-one {
     display: flex;
-    font-size: 12px;
+    font-size: 16px;
     justify-content: center;
     margin-top: 15px;
 }
@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #choices {
@@ -79,7 +79,7 @@ button {
     transition-duration: 0.4s;
     margin-right: 10px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding: 5px;
     background-color: #0097FF;
@@ -93,7 +93,7 @@ button {
 
 #reset {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #choice-statement {
@@ -109,11 +109,12 @@ button {
     margin-top: 30px;
     display: flex;
     color: black;
-    background-color: #FF1900;
+    background-color: #FD544F;
     font-weight: bold;
     padding: 5px;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 25px;
+    margin-right: 29px;
 }
 
 
